@@ -1,0 +1,6 @@
+      <%for(var i=0;i<newitems.length;i++){%>
+        <div class="item">
+          <input type="checkbox">
+          <p><%=newitems[i].name%></p>
+        </div>
+      <%}%>
